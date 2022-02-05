@@ -22,7 +22,7 @@ export default function TextSave(props: TextSaveProps) {
             <ul className="mt-2">
                 {props.textsSaves.map((text, index) => {
                     return (
-                        <li className={`flex items-center p-1 justify-between ${ItemClassName}`}>
+                        <li key={index} className={`flex items-center p-1 justify-between ${ItemClassName}`}>
                             <small className="px-3 py-1">
                                 {text}
                             </small>

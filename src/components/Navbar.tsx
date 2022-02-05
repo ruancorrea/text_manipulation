@@ -52,7 +52,7 @@ export default function Navbar(props: NavBarProps) {
             setHam(false);
             setItensHam(false);
         }
-    })
+    }, [width])
 
     return (
         <div className={`fixed w-screen p-3
