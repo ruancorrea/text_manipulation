@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div>
+    <div align = "center">
+        <h1>Manipulation Text</h1>
+        <img src="https://user-images.githubusercontent.com/47988061/152659785-b2196db9-37fa-4ef9-a88a-d0f9d3c05205.png"/>
+        <a href="https://snake-game-rust.vercel.app/" target="_blank">https://snake-game-rust.vercel.app/</a>
+    </div>
+    <h3>Opções de manipulação de texto</h3>
+    <ul>
+        <li>Uppercase: Todo o texto em maiúsculo.</li>
+        <li>Lowercase: Todo o texto em minúsculo.</li>
+        <li>1st Letter Per Word: A primeira letra de cada palavra será maiúscula.</li>
+        <li>Line Break Per Word: Quebra de linha a cada palavra.</li>
+        <li>Invert Text: Todo o texto inverso.</li>
+        <li>No Empty Space: Todo o texto com apenas um espaço entre as palavras.</li>
+        <li>No Space: Todo o texto sem espaços.</li>
+        <li>Word Spacing: Texto sem quebras de linhas.</li>
+        <li>No Empty Line: Todo o texto com apenas uma quebra de linha.</li>
+        <li>Line Break Per Phrase: Uma quebra de linha entre frases.</li>
+        <li>1st Letter Per Phrase: A primeira letra de cada frase será maiúscula.</li>
+        <li>Erase Text: Deletar todo o texto inserido.</li>
+    </ul><br />
+    <h3>Tecnologias utilizadas</h3>
+    <ul>
+        <li>NextJS</li>
+        <li>ReactJS</li>
+        <li>Typescript</li>
+        <li>Tailwind CSS</li>
+    </ul>
+</div>
