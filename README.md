@@ -1,7 +1,11 @@
 <div>
     <div align = "center">
         <h1>Manipulation Text</h1>
-        <img src="https://user-images.githubusercontent.com/47988061/152659785-b2196db9-37fa-4ef9-a88a-d0f9d3c05205.png"/>
+    </div>
+   <div align = "center">
+        <img src="https://user-images.githubusercontent.com/47988061/152659785-b2196db9-37fa-4ef9-a88a-d0f9d3c05205.png" />
+   </div>
+   <div align = "center">
         <a href="https://snake-game-rust.vercel.app/" target="_blank">https://snake-game-rust.vercel.app/</a>
     </div>
     <h3>Opções de manipulação de texto</h3>
