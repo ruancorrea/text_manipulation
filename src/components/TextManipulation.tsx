@@ -81,7 +81,7 @@ export default function TextManipulation (props: TextManipulationProps) {
                 {
                     optionsManipulation.map((option, index) => {
                         return (
-                            <div className="flex justify-center p-2">
+                            <div key={index} className="flex justify-center p-2">
                                 <button className={`${className}`}
                                 onClick={() => option.function(text)}><small>{option.name}</small></button>
                             </div>
