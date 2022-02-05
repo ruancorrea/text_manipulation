@@ -25,7 +25,7 @@ function ItensNavbar(props: NavBarProps) {
     return (
         <div className="duration-1000 delay-1000 transition-transform">
             <Item className={props.className} nome={"Saved texts"} destino={"/#savedtexts"}/>
-            <Item className={props.className} nome={"What's that?"} destino={"/#whatsthat"}/>
+            <Item className={props.className} nome={`What's that?`} destino={"/#whatsthat"}/>
             {
                 props.StatusDarkMode ?
                 <button className="p-2 uppercase text-white"
