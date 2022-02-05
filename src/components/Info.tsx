@@ -7,7 +7,7 @@ export default function Info(props: InfoProps) {
     const HeaderClassName = props.statusDM ? "bg-slate-800" : "bg-gray-500";
     return (
         <div  className={`${darkMode} sm:px-2 py-2 md:px-20`}>
-            <header id={"whatsthat"} className={`${HeaderClassName} font-semibold p-3 rounded-lg text-white`}>
+            <header id="whatsthat" className={`${HeaderClassName} font-semibold p-3 rounded-lg text-white`}>
                 <h2 className="text-3xl">What's that?</h2>
             </header>
             <p className="text-justify p-3">

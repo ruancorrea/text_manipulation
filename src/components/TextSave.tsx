@@ -16,7 +16,7 @@ export default function TextSave(props: TextSaveProps) {
     
     return (
         <div  className={`${darkMode} my-5`}>
-            <header id={"savedtexts"} className={`${HeaderClassName} font-semibold p-3 rounded-lg text-white`}>
+            <header id="savedtexts" className={`${HeaderClassName} font-semibold p-3 rounded-lg text-white`}>
                 <h2 className="text-3xl">Saved texts</h2>
             </header>
             <ul className="mt-2">
