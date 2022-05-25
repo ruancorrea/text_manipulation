@@ -17,7 +17,7 @@ export default function useTextManipulation() {
         var spaces = text.split(" ");
         var textResponse = ""
         for(var i=0; i<spaces.length;i++){
-            textResponse += spaces[i][0].toUpperCase() + spaces[i].substr(1) + " "
+            textResponse += String(spaces[i][0]).toUpperCase() + spaces[i].substr(1) + " "
         }
         setText(textResponse)
     }
