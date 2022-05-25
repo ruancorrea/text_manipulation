@@ -16,8 +16,11 @@ export default function useTextManipulation() {
     function ONELPW(text: string) {
         var spaces = text.split(" ");
         var textResponse = ""
+        console.log(spaces)
         for(var i=0; i<spaces.length;i++){
-            textResponse += String(spaces[i][0]).toUpperCase() + spaces[i].substr(1) + " "
+            if(spaces[i].length>0){
+                textResponse += String(spaces[i][0]).toUpperCase() + String(spaces[i]).substr(1) + " "
+            }
         }
         setText(textResponse)
     }
